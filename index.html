@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./ASSETS/IMAGES/stock-favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./CSS/app.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="./JS/app.js"></script>
+    <title>StockApp</title>
+  </head>
+  <body ng-app="myApp">
+    <div class="container">
+      <header>
+        <h1>
+          <img src="./ASSETS/IMAGES/stock-favicon.png" alt="StockApp" />
+          StockApp
+        </h1>
+        <p>Gerencie o seu estoque de produtos!</p>
+      </header>
+      <div class="ng-view"></div>
+    </div>
+  </body>
+</html>
