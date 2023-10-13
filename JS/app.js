@@ -8,6 +8,6 @@ app.config(function($routeProvider) {
     templateUrl : "VIEWS/post_produto.html"
   })
   .when("/altEstoque", {
-    template : "<p>ALTERAR</p>"
+    templateUrl : "VIEWS/put_estoque.html"
   })
 });

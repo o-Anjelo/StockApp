@@ -1,0 +1,65 @@
+<section class="cadProduto">
+  <p>Cadastrar Saída de Produtos</p>
+  <section class="stockTableView">
+    <table>
+      <thead>
+        <tr>
+          <th>CÓDIGO</th>
+          <th>DESCRIÇÃO</th>
+          <th>QUANTIDADE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>MARTELO</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>PREGO</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>PARAFUSO</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>SERRAS</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>TRENAS</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <form action="">
+    <div class="descLabel">
+      <input
+        type="text"
+        id="inputDesc"
+        ng-model="prodDesc"
+        autocomplete="off"
+      />
+      <label for="inputDesc">Nome do Produto</label>
+    </div>
+    <div class="qtdLabel">
+      <input
+        type="number"
+        id="inputQtd"
+        ng-model="prodQtd"
+        autocomplete="off"
+      />
+      <label for="inputQtd">Quantidade</label>
+    </div>
+  </form>
+  <div class="bottomBtn">
+    <a>Dar Saída</a>
+    <a href="#!/" id="backBtn">Voltar</a>
+  </div>
+</section>

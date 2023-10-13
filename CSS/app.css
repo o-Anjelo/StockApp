@@ -149,11 +149,23 @@ input[type="number"]:focus ~ label, .cadProduto:not(:placeholder-shown).cadProdu
   padding: 0 .125em;
 }
 
+/* TELA DE CADASTRO DE SAÍDAS */
+
+form{
+  display: flex;
+  width: min(90%, 620px);
+  margin-inline: auto;
+  justify-content: center;
+}
+
 @media screen and (max-width: 470px) {
   .bottomBtn {
     flex-direction: column;
   }
   .bottomBtn button {
     margin: .5em 0;
+  }
+  form{
+    flex-direction: column;
   }
 }
